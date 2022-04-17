@@ -1,0 +1,47 @@
+.Graph {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.Buttons{
+    display: flex;
+    flex-direction: column;
+    margin-left: .5%;
+    width: 100%;
+    margin-top: .5%;
+}
+
+.Plot {
+    background-color: white;
+}
+.DateButtons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10px;
+}
+.Utility{
+    width: 10vw
+}
+
+.DatePicker{
+    margin-top: 10px;
+}
+
+.MuiInput-root{
+    background-color: white;
+}
+
+.Container{
+    width: 80vw;
+    margin-top: 10vh;
+    align-items: flex-start;
+    justify-content: center;
+    display: flex;
+    margin-left: 10px;
+}
+
+.Changeble{
+    display:flex;
+}

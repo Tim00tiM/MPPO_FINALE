@@ -1,0 +1,64 @@
+.LoginPage {
+  height:100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.LoginContainer {
+  display: flex;
+  align-self: center;
+  margin-top: 15%;
+  width: 12%;
+  height: 8%;
+  /* background-color: #dcedfa; */
+  flex-direction: column;
+  padding-top: .5%;
+  padding-bottom: .5%;
+  border-radius: 3px;
+  justify-content: space-between;
+}
+
+.welcomeText {
+  align-self: center;
+  font-size: 25px;
+  font-weight: bold;
+  color: #000000;
+}
+
+.Login,
+.Password {
+  height: 48%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.TextFieldPassword,
+.TextFieldLogin {
+  width: 100%;  
+  border-width: .5px;
+  border-radius: 3px;
+}
+
+.Button {
+  width: 38%;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  padding: 0%;
+}
+
+.Bu{
+  width: 100%;
+}
+
+.imgur{
+  position: absolute;
+top: 0px; 
+left: 0px;
+}
+
+.canvas{
+  z-index: 12
+}
